@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    text-align: center;
+    background:rgb(54, 183, 19);
+    
+}
+
+@font-face {
+    font-family: digital;
+    src: url(font1.ttf);
+}
+.team-names{
+    font-family: digital;
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 1px 1px 3px solid black ;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-left: 210px;
+    
+}
+
+#home-board{
+position: absolute;
+width: 155px;
+height: 120px;
+left: 250px;
+top: 125px;
+background-color: black;
+color: rgb(251, 255, 0);
+font-size:100px;
+text-align: center;
+border-radius: 4%;
+font-family: digital;
+border: 3px solid white;
+    border-radius: 10%;
+}
+#guest-board{
+    
+position: absolute;
+width: 155px;
+height: 120px;
+left: 550px;
+top: 125px;
+background-color: black;
+color:rgb(251, 255, 0);
+font-size:100px;
+text-align: center;
+border-radius: 4%;
+font-family: digital;
+border: 3px solid white;
+    border-radius: 10%;
+}
+.buttons1{
+position: absolute;
+width: 144px;
+height: 45px;
+left: 256px;
+top: 271px;
+
+
+}
+.buttons2{
+    position: absolute;
+width: 155px;
+height: 45px;
+left: 552px;
+top: 271px;
+
+}
+
+.buttons{
+    font-family: digital;
+    background-color: rgb(43, 0, 214);
+    color: rgb(239, 239, 248);
+    border: 3px solid white;
+    border-radius: 10%;
+}
+.buttons:hover{
+    background-color: rgb(0, 7, 100);
+}
+#resetbtn{
+    font-family: digital;
+    background-color: rgb(189, 0, 0);
+    color: rgb(239, 239, 248);
+     font-weight: 800;
+     margin-left: 380px;
+     border: 3px solid white;
+    border-radius: 10%;
+}
